@@ -18,12 +18,12 @@
   version = "v3.2.0"
 
 [[projects]]
-  digest = "1:d5f97fc268267ec1b61c3453058c738246fc3e746f14b1ae25161513b7367b0c"
+  digest = "1:cbec35fe4d5a4fba369a656a8cd65e244ea2c743007d8f6c1ccb132acf9d1296"
   name = "github.com/gorilla/mux"
   packages = ["."]
   pruneopts = "UT"
-  revision = "c5c6c98bc25355028a63748a498942a6398ccd22"
-  version = "v1.7.1"
+  revision = "00bdffe0f3c77e27d2cf6f5c70232a2d3e4d9c15"
+  version = "v1.7.3"
 
 [[projects]]
   digest = "1:a2cff208d4759f6ba1b1cd228587b0a1869f95f22542ec9cd17fff64430113c7"
@@ -56,6 +56,14 @@
   pruneopts = "UT"
   revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
   version = "v0.8.1"
+
+[[projects]]
+  branch = "master"
+  digest = "1:17ca63df870a76607baedbd078caae10db9b6bb43e3f2a285f87144418927bfc"
+  name = "github.com/takaidohigasi/deteco"
+  packages = ["deteco"]
+  pruneopts = "UT"
+  revision = "31e3f31c5dd1e46b90cd6dadd2a0ed7859ad6dcf"
 
 [[projects]]
   digest = "1:a5158647b553c61877aa9ae74f4015000294e47981e6b8b07525edcbb0747c81"
@@ -99,6 +107,7 @@
     "github.com/karlseguin/ccache",
     "github.com/lestrrat/go-server-starter-listener",
     "github.com/pkg/errors",
+    "github.com/takaidohigasi/deteco/deteco",
     "go.uber.org/zap",
   ]
   solver-name = "gps-cdcl"

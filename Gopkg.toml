@@ -53,6 +53,10 @@
   name = "go.uber.org/zap"
   version = "1.10.0"
 
+[[constraint]]
+  branch = "master"
+  name = "github.com/takaidohigasi/deteco"
+
 [prune]
   go-tests = true
   unused-packages = true
