@@ -80,6 +80,7 @@ func (h *Handler) VerifyOriginURI(path string, service *Service) error {
 		path = path + "/"
 	}
 	for _, try := range service.paths {
+		fmt.Printf("checking path: %s", try)
 		if strings.Index(path, try) == 0 {
 			return nil
 		}
