@@ -14,7 +14,7 @@ import (
 	"github.com/gorilla/mux"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/karlseguin/ccache"
-	"github.com/kazeburo/deteco/deteco"
+	"github.com/takaidohigasi/deteco/deteco"
 	ss "github.com/lestrrat/go-server-starter-listener"
 	"go.uber.org/zap"
 )
