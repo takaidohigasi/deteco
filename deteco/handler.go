@@ -84,7 +84,7 @@ func (h *Handler) VerifyOriginURI(path string, service *Service) error {
 			return nil
 		}
 	}
-	return errors.New("Not matches path")
+	return errors.New(fmt.Printf("Not matches path: %s", path))
 }
 
 // VerifyAuthHeader verify auth header
